@@ -51,7 +51,7 @@ a:hover {text-decoration: underline}
 }
 
 .logo-and-search-form-div {
-margin-top: 200px;
+margin-top: 165px;
 }
 
 .logo {
@@ -59,6 +59,25 @@ margin-top: 200px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 27px;
+}
+
+.search-form-div {
+position: relative;
+}
+
+.magnifying-glass {
+position: absolute;
+height:16px;
+top: 14px;
+left: 142px;
+bottom: 0px;
+}
+
+.microphone {
+    position: absolute;
+    height: 24px;
+    top: 11px;
+    left: 573px;
 }
 
 .search-form {
