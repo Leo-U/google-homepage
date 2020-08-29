@@ -51,7 +51,7 @@ a:hover {text-decoration: underline}
 }
 
 .logo-and-search-form-div {
-margin-top: 165px;
+margin-top: 120px;
 }
 
 .logo {
@@ -76,18 +76,16 @@ position: relative;
     border-radius: 24px;
     background: #fff;
     font-size: 16px;
-    text-indent: 45px;
+    padding-left: 45px;
+    padding-right: 45px;
     text-align: left;
     background-image: url(/images/magnifying-glass.png), url(/images/microphone.png);
     background-repeat: no-repeat;
     background-size: 17px, 18px;
     background-position-x: 14px, 445px;
     background-position-y: 14px, 10px;
-    
-   
-    
+}
 
-} 
 .search-form:hover {
     box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
     border-color: rgba(223,225,229,0);
@@ -117,4 +115,32 @@ margin-right: 3px;
 
 .button-lucky-search {
 margin-left: 3px;
+}
+
+.footer {
+    
+    font-size: 14px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background-color:#f2f2f2;
+    line-height: 40px;
+    border-top: 1px solid #e4e4e4;
+}
+
+.advertising, .business, .how-search-works,  .terms, .settings {
+    padding-left: 27px;
+}
+
+.privacy {
+    float: right;
+}
+
+.terms {
+    float: right
+}
+
+.settings {
+    float: right;
+    padding-right: 27px;
 }
