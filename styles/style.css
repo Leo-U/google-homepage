@@ -16,7 +16,6 @@ a:link, a:visited {
 }
 a:hover {text-decoration: underline}
 
-a:hover, a:visited, a:unvisited {color: black;}
 
 .about {
     margin-left: 1em;
@@ -33,12 +32,17 @@ a:hover, a:visited, a:unvisited {color: black;}
 
 .images {
     float: right;
-    margin-right: 1em;
+    margin-right: 1.4em;
 }
 
 .apps {
     float: right;
     margin-right: 1em;
+    opacity: .55;
+}
+
+.apps:hover {
+    opacity: .85;
 }
 
 .accounts {
@@ -46,10 +50,15 @@ a:hover, a:visited, a:unvisited {color: black;}
     margin-right: 1em;
 }
 
+.logo-and-search-form-div {
+margin-top: 200px;
+}
+
 .logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 27px;
 }
 
 .search-form {
@@ -71,5 +80,25 @@ a:hover, a:visited, a:unvisited {color: black;}
 .button-set {
     text-align: center;
     font-family: arial,sans-serif;
+    margin-top: 30px;
+}
 
+.button-search, .lucky-search {
+    padding: 10px;
+    padding-left: 17px;
+    padding-right: 17px;
+    font-size: 14px;
+    color: #5f6368;
+    background-color: #f2f2f2;
+    border: 1px;
+    border-radius: 4px;
+    font-family: arial,sans-serif;
+}
+
+.button-search {
+margin-right: 3px;
+}
+
+.lucky-search {
+margin-left: 3px;
 }
