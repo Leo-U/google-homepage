@@ -1,12 +1,49 @@
 
 .top-navbar {
     list-style-type: none;
-    margin:0;
     padding:0;
+    font-size: 13px;
+    margin-top: 1.5em;
 }
 
 li {
     display: inline;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.801);
+}
+a:hover {text-decoration: underline}
+
+a:hover, a:visited, a:unvisited {color: black;}
+
+.about {
+    margin-left: 1em;
+}
+
+.store {
+    margin-left: 1em;
+}
+
+.gmail {
+    float: right;
+    margin-right: 1em;
+}
+
+.images {
+    float: right;
+    margin-right: 1em;
+}
+
+.apps {
+    float: right;
+    margin-right: 1em;
+}
+
+.accounts {
+    float: right;
+    margin-right: 1em;
 }
 
 .logo {
@@ -14,7 +51,6 @@ li {
     margin-left: auto;
     margin-right: auto;
 }
-
 
 .search-form {
     display: block;
@@ -34,4 +70,6 @@ li {
 
 .button-set {
     text-align: center;
+    font-family: arial,sans-serif;
+
 }
