@@ -65,20 +65,6 @@ margin-top: 165px;
 position: relative;
 }
 
-.magnifying-glass {
-position: absolute;
-height:16px;
-top: 14px;
-left: 142px;
-bottom: 0px;
-}
-
-.microphone {
-    position: absolute;
-    height: 24px;
-    top: 11px;
-    left: 573px;
-}
 
 .search-form {
     display: block;
@@ -89,6 +75,17 @@ bottom: 0px;
     border: 1px solid #dfe1e5;
     border-radius: 24px;
     background: #fff;
+    font-size: 16px;
+    text-indent: 45px;
+    text-align: left;
+    background-image: url(/images/magnifying-glass.png), url(/images/microphone.png);
+    background-repeat: no-repeat;
+    background-size: 17px, 18px;
+    background-position-x: 14px, 445px;
+    background-position-y: 14px, 10px;
+    
+   
+    
 
 } 
 .search-form:hover {
@@ -102,7 +99,7 @@ bottom: 0px;
     margin-top: 30px;
 }
 
-.button-search, .lucky-search {
+.button-google-search, .button-lucky-search {
     padding: 10px;
     padding-left: 17px;
     padding-right: 17px;
@@ -114,10 +111,10 @@ bottom: 0px;
     font-family: arial,sans-serif;
 }
 
-.button-search {
+.button-google-search {
 margin-right: 3px;
 }
 
-.lucky-search {
+.button-lucky-search {
 margin-left: 3px;
 }
