@@ -10,15 +10,21 @@ li {
     display: inline;
 }
 
+
+
 a:link, a:visited {
     text-decoration: none;
     color: rgba(0, 0, 0, 0.801);
 }
-a:hover {text-decoration: underline}
+
+
+.about:hover, .store:hover, .gmail:hover, .images:hover, .advertising:hover, .business:hover, .how-search-works:hover, .privacy:hover, .terms:hover, .settings:hover {
+    text-decoration:underline;
+}
 
 
 .about {
-    margin-left: 1em;
+    margin-left: 17px;
 }
 
 .store {
@@ -27,17 +33,17 @@ a:hover {text-decoration: underline}
 
 .gmail {
     float: right;
-    margin-right: 1em;
+    margin-right: 17px;
 }
 
 .images {
     float: right;
-    margin-right: 1.4em;
+    margin-right: 18px;
 }
 
 .apps {
     float: right;
-    margin-right: 1em;
+    margin-right: 20px;
     opacity: .55;
 }
 
@@ -47,7 +53,13 @@ a:hover {text-decoration: underline}
 
 .accounts {
     float: right;
-    margin-right: 1em;
+    margin-right: 20.5px;
+    margin-top: -6px;
+    background-color:#4285f4;
+    font-weight: bold;
+    padding: 0 12px;
+    line-height: 28px;
+    border-radius: 2px;
 }
 
 .logo-and-search-form-div {
