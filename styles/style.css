@@ -91,7 +91,7 @@ position: relative;
     padding-left: 45px;
     padding-right: 45px;
     text-align: left;
-    background-image: url(/images/magnifying-glass.png), url(/images/microphone.png);
+    background-image: url(https://raw.githubusercontent.com/Leo-U/google-homepage/master/images/magnifying-glass.png), url(https://raw.githubusercontent.com/Leo-U/google-homepage/master/images/microphone.png);
     background-repeat: no-repeat;
     background-size: 17px, 18px;
     background-position-x: 14px, 445px;
@@ -119,6 +119,14 @@ position: relative;
     border: 1px;
     border-radius: 4px;
     font-family: arial,sans-serif;
+    border: 1px solid #f2f2f2;
+}
+
+.button-google-search:hover, .button-lucky-search:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    border: 1px solid #c6c6c6;
+    color: #222;
+    background-color: #f8f8f8
 }
 
 .button-google-search {
