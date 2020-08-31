@@ -49,15 +49,23 @@ a:link, a:visited {
     opacity: .85;
 }
 
-.accounts {
+
+.accounts-container {
     float: right;
     margin-right: 20.5px;
-    margin-top: -6px;
+    margin-top: -7px;
+    
+}
+
+.accounts-button {
     background-color:#4285f4;
+    font-family: arial, sans-serif;
     font-weight: bold;
     padding: 0 12px;
     line-height: 28px;
+    border: 1px solid #4285f4;
     border-radius: 2px;
+    font-size: 13px;
 }
 
 .logo-and-search-form-div {
