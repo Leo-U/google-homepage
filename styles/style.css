@@ -79,6 +79,10 @@ margin-top: 164px;
     margin-bottom: 27px;
 }
 
+textarea:focus, input:focus {
+    outline: none;
+}
+
 .search-form-div {
 position: relative;
 }
